@@ -43,6 +43,38 @@ body{
 	height: 100vh;
 }
 
-.divider {
+.ui.divider {
 	background: rgba(255, 255, 255, .2);
+	margin: 4.0rem 0;
+}
+
+
+#linkIcons i{
+	font-size: 3rem;
+}
+
+#linkIcons div{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	
+}
+#linkIcons div:hover{
+	background: rgba(0, 0, 0, .2);
+	/* box-shadow: 0 10px 10px -10px rgba(255, 255, 255, 0.7); */
+}
+
+
+#thingsSection div{
+	display: flex;
+	align-content: center;
+}
+#thingsSection div:hover{
+	background: rgba(0, 0, 0, .2);
+	border-bottom: 4px solid honeydew;
+	margin-bottom: -4px;
+}
+#thingsSection > h2{
+	border: 4px solid honeydew;
+	margin-bottom: -4px;
 }
