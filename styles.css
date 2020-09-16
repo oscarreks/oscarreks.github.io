@@ -9,8 +9,9 @@
 		position: relative;
 		font-size: 3rem;
 	}
-	#thingSection .row.projectItem{
-		margin-bottom: 1rem;;
+	#projects .divider{
+		/* display: none; */
+		visibility: hidden;
 	}
 }
 /* for mobile screens */
@@ -24,8 +25,9 @@
 		position: relative;
 		font-size: 1rem;
 	}
-	#thingSection .row.projectItem{
-		margin-bottom: .5rem;;
+	#projects .divider{
+		/* display: block; */
+		visibility: visible;
 	}
 } 
 
